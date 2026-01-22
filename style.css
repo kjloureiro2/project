@@ -14,9 +14,7 @@ body
     width: 1920;
     height: 1096;
     top: 894px;
-    opacity: 1;
-
-    
+    opacity: 1;    
 }
 
 .container
@@ -67,7 +65,6 @@ header
     letter-spacing: 0.5px;
 }
 
-/* Hero Section */
 .hero
 {
     position: relative;
@@ -87,7 +84,7 @@ header
     top: 50%;
     left: 45%;
     transform: translate(-50%, -50%);
-    font-size: 450px;
+    font-size: 16px;
     font-weight: 800;
     color: #f6f6f6;
     z-index: -1;
@@ -133,7 +130,6 @@ header
     max-width: 480px;
 }
 
-/* Кнопки */
 .btn
 {
     display: inline-block;
@@ -161,7 +157,6 @@ header
     background: #0d0d0d;
 }
 
-/* Fleet (Автопарк) */
 .fleet
 {
     padding: 100px 0;
@@ -229,7 +224,6 @@ header
     font-weight: 600;
 }
 
-/* Booking (Бронирование) */
 .booking
 {
     padding: 120px 0;
@@ -287,13 +281,11 @@ header
     max-width: 800px;
 }
 
-/* Footer */
 footer
 {
 width: 1920;
 height: 596;
 top: 2090px;
-angle: 0 deg;
 opacity: 1;
 
 }
@@ -303,7 +295,6 @@ opacity: 1;
     width: 1920;
     height: 596;
     top: 2090px;
-    angle: 0 deg;
     opacity: 1;
     display: flex;
     justify-content: space-between;
