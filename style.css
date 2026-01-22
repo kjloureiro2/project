@@ -326,34 +326,3 @@ opacity: 1;
     font-size: 14px;
     color: #999;
 }
-
-/* Mobile */
-@media (max-width: 992px)
-{
-    .hero-bg-text
-    {
-        display: none;
-    }
-
-    .hero-container, .booking-container
-    {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .fleet-grid
-    {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .hero-image-wrap
-    {
-        margin: 40px 0 0 0;
-        width: 100%;
-    }
-
-    .hero-title
-    {
-        font-size: 48px;
-    }
-}
