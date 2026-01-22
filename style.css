@@ -3,11 +3,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body
 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto';
     line-height: 1.5;
     color: #000;
     overflow-x: hidden;
@@ -53,6 +55,7 @@ header
     display: flex;
     list-style: none;
     gap: 45px;
+    justify-content: center;
 }
 
 .nav a
@@ -114,20 +117,24 @@ header
 
 .hero-title
 {
-    font-size: 82px;
-    font-weight: 800;
-    line-height: 1.05;
-    margin-bottom: 30px;
-    letter-spacing: -2px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+
 }
 
 .hero-description
 {
-    font-size: 15px;
-    color: #333;
-    line-height: 1.7;
-    margin-bottom: 45px;
-    max-width: 480px;
+    max-width: 502px;
+    max-height: 126px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    margin: 0;
+
 }
 
 .btn
@@ -159,15 +166,16 @@ header
 
 .fleet
 {
-    padding: 100px 0;
+    margin: 100px 0;
 }
 
 .section-title
 {
-    font-size: 42px;
-    font-weight: 800;
-    text-align: center;
-    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
 }
 
 .fleet-grid
@@ -226,7 +234,7 @@ header
 
 .booking
 {
-    padding: 120px 0;
+    margin: 120px 0;
 }
 
 .booking-container
@@ -245,7 +253,7 @@ header
 .booking-content h2
 {
     font-size: 68px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 1.1;
     margin-bottom: 25px;
 }
